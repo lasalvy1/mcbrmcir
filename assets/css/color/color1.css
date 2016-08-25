@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.project .hover,#team .member-detail,.carousel-control:hover,.event .events-date,.pricing-detail a,.navbar-default .navbar-nav > li > a:before, .event .events-date, .pricing-detail a{
+	background-color:#45BCD2;
+}
+
+#filter-out li.active a,#filter-out li:hover a,a.folio-link,.project-info li i,#home a.btn:hover,.btn:hover,.check-list li i,.pricing-table .plan-price,.premium .plan-title,.premium .plan-price, .check-list li i, .premium .plan-title, .premium .plan-price, .btn:hover{
+	color:#45BCD2;
+}
+
+#home a.btn:hover,.btn:hover,.nav-tabs > li.active,.promo-slider,.promo-slider .flex-control-paging li a.flex-active, .promo-slider .flex-control-paging li a.flex-active, .btn:hover{
+	border-color:#45BCD2;
+}
+
+.nav-tabs > li.active, .promo-slider{
+	border-top-color:#45BCD2;
+}
+
+.service li{
+	border-bottom-color:#7FCED3;
+}
+
+
+*::selection {
+	background: #1e1e1e;
+	color: #fff;
+}
+*::-moz-selection {
+	background: #1e1e1e;
+	color: #fff;
+}
+#services
+{
+	background-color:#FB8510;	
+	}
