@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>MCBRMCIR</title>
+
+<!--=================================
+Meta tags
+=================================-->
+
+<meta name="description" content="">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+
+<!--=================================
+Style Sheets
+=================================-->
+<link rel="icon" href="assets/img/basic/Icon.png">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,800,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.vegas.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/css/royal_preloader.css">
+<link rel="stylesheet" type="text/css" href="assets/css/rmodal.css">
+<link id="color" rel="stylesheet" type="text/css" href="assets/css/color/color1.css">
+
+</head>
+<body>
+<!--=================================
+Navigation
+=================================-->
+<header>
+  <nav id="sticktop" class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#"><img src="assets/img/basic/logo.png" alt="logo" /></a> </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home">HOME</a></li>
+          <li><a href="#about_us">ABOUT US</a></li>
+          <li><a href="blog.html">SERVICES</a></li>
+          <li><a href="#" id="showModal">CONTACT</a></li>
+    <div id="modal" class="modal">
+        <div class="modal-dialog animated">
+            <div class="modal-content">
+                <form class="form-horizontal" method="get">
+                    <div class="modal-header">
+                        <strong>MESSAGE</strong>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="dummyText" class="control-label col-xs-4">Name</label>
+                            <div class="input-group col-xs-7">
+                                <input type="text" name="dummyText" id="dummyText" class="form-control" />
+                                
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <label for="dummyText" class="control-label col-xs-4">Email</label>
+                            <div class="input-group col-xs-7">
+                                <input type="text" name="dummyText" id="dummyText" class="form-control" />
+                                
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <label for="dummyText" class="control-label col-xs-4">Phonenumber </label>
+                            <div class="input-group col-xs-7">
+                                <input type="text" name="dummyText" id="dummyText" class="form-control" />
+                                
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <label for="dummyText" class="control-label col-xs-4">Message </label>
+                            <textarea name="message" rows="5" cols="50" class="text-info"></textarea>
+                    </div>
+
+                    <div class="modal-footer">
+                        <a onclick="modal.close();">Cancel</a>
+                        <button class="btn btn-primary" type="submit" onclick="modal.close();">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+           
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+  </nav>
+</header>
+<section id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1"> <img src="assets/img/basic/banner.png" alt=""/>
+        <h2>An uncertainty becomes a risk when it affects an objective</h2>
+        <p>We ensure your business performs better and delivers greater result.</p>
+        <a class="btn-effect btn" href="#about_us">About us </a> </div>
+    </div>
+    <a href="#" id="prevslide"></a>
+  	<a href="#" id="nextslide"></a>
+  </div>
+  
+  
+</section>
+
+<div class="sections-holder"> 
+  <!--=================================
+	portfolio
+	=================================-->
+  <section id="portfolio">
+    <h1 id="about_us"><span>ABOUT US</span></h1>
+    <div id="filter-out">
+    </div>
+    <div class="projects-detail">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div id="detail-flex" class="flexslider">
+              <ul class="slides">
+                <li>
+                  <div id="project_1" class="carousel slide project-desc" data-ride="carousel"> 
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active"> <img src="assets/img/demo/portfolio/big/7.jpg" alt="..."> </div>
+                      <div class="item"> <img src="assets/img/demo/portfolio/big/4.jpg" alt="..."> </div>
+                    </div>
+                    <!-- Controls --> 
+                    <a class="left carousel-control" href="#project_1" data-slide="prev"> <span class=" icon-chevron-left"></span> </a> <a class="right carousel-control" href="#project_1" data-slide="next"> <span class=" icon-chevron-right"></span> </a> </div>
+                  <div class="project-info">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <a href="#" class="folio-link">Visit the site →</a>
+                        <h3>Overview</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Challenge</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Details</h3>
+                        <h4>Services:</h4>
+                        <ul>
+                          <li><i class="icon-ok"></i>Branding</li>
+                          <li><i class="icon-ok"></i>Design</li>
+                          <li><i class="icon-ok"></i>Web</li>
+                          <li><i class="icon-ok"></i>Packaging</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div id="project_2" class="carousel slide project-desc" data-ride="carousel"> 
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active"> <img src="assets/img/demo/portfolio/big/1.jpg" alt="..."> </div>
+                      <div class="item"> <img src="assets/img/demo/portfolio/big/2.jpg" alt="..."> </div>
+                    </div>
+                    <!-- Controls --> 
+                    <a class="left carousel-control" href="#project_2" data-slide="prev"> <span class=" icon-chevron-left"></span> </a> <a class="right carousel-control" href="#project_2" data-slide="next"> <span class=" icon-chevron-right"></span> </a> </div>
+                  <div class="project-info">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Overview</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Challenge</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Details</h3>
+                        <h4>Services:</h4>
+                        <ul>
+                          <li><i class="icon-ok"></i>Branding</li>
+                          <li><i class="icon-ok"></i>Design</li>
+                          <li><i class="icon-ok"></i>Web</li>
+                          <li><i class="icon-ok"></i>Packaging</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div id="project_3" class="carousel slide project-desc" data-ride="carousel"> 
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active"> <img src="assets/img/demo/portfolio/big/5.jpg" alt="..."> </div>
+                      <div class="item"> <img src="assets/img/demo/portfolio/big/6.jpg" alt="..."> </div>
+                    </div>
+                    <!-- Controls --> 
+                    <a class="left carousel-control" href="#project_3" data-slide="prev"> <span class=" icon-chevron-left"></span> </a> <a class="right carousel-control" href="#project_3" data-slide="next"> <span class=" icon-chevron-right"></span> </a> </div>
+                  <div class="project-info">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       <a href="#" class="folio-link">Visit the site →</a>
+                        <a href="#" class="folio-link">Visit the site →</a>
+                        <h3>Overview</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Challenge</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Details</h3>
+                        <h4>Services:</h4>
+                        <ul>
+                          <li><i class="icon-ok"></i>Branding</li>
+                          <li><i class="icon-ok"></i>Design</li>
+                          <li><i class="icon-ok"></i>Web</li>
+                          <li><i class="icon-ok"></i>Packaging</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div id="project_4" class="carousel slide project-desc" data-ride="carousel"> 
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                     <div class="item active"> <img src="assets/img/demo/portfolio/big/22.jpg" alt="..."> </div>
+                      <div class="item"> <img src="assets/img/demo/portfolio/big/23.jpg" alt="..."> </div>
+                    </div>
+                    <!-- Controls --> 
+                    <a class="left carousel-control" href="#project_4" data-slide="prev"> <span class=" icon-chevron-left"></span> </a> <a class="right carousel-control" href="#project_4" data-slide="next"> <span class=" icon-chevron-right"></span> </a> </div>
+                  <div class="project-info">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                       <a href="#" class="folio-link">Visit the site →</a>
+
+                        <h3>Overview</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Challenge</h3>
+                        <p>A few brief words about your project or post. Lorem ipsudolor sit amet consectetur adipisicing elit, sed do eiusmotemporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt inculpaqui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Details</h3>
+                        <h4>Services:</h4>
+                        <ul>
+                          <li><i class="icon-ok"></i>Branding</li>
+                          <li><i class="icon-ok"></i>Design</li>
+                          <li><i class="icon-ok"></i>Web</li>
+                          <li><i class="icon-ok"></i>Packaging</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      	<div id="folio-prev" class="prev-arrow"></div>
+    	<div id="folio-next" class="next-arrow"></div>  
+        
+        <div class="close-folio"></div>
+        
+      </div>
+    
+    <!--container--> 
+    
+  </div>
+  <!--project-detail-->
+  
+  <div class="projects four">
+    <div class="project type1 type2" data-projectid="0"> <img src="assets/img/demo/slider/our-company.png" alt=""/>
+      <div class="hover">
+        <div class="hover-inner">
+          <h3>OUR COMPANY</h3>
+          <p>click here </p>
+<!-- <ul>
+            <li>Branding , </li>
+            <li>Packaging</li>
+          </ul>          <div class="likes"><span class="icon-heart"></span> 270</div>-->
+        </div>
+      </div>
+    </div>
+    <!--project-->
+    
+    <div class="project type3 type4" data-projectid="1"> <img src="assets/img/demo/slider/integrity.png" alt=""/>
+      <div class="hover">
+        <div class="hover-inner">
+          <h3>OUR PEOPLE</h3>
+            <p>click here </p>
+
+<!-- <ul>
+            <li>Branding , </li>
+            <li>Packaging</li>
+          </ul>          <div class="likes"><span class="icon-heart"></span> 270</div>-->
+        </div>
+      </div>
+    </div>
+    <!--project-->
+    
+    <div class="project type1 type2" data-projectid="2"> <img src="assets/img/demo/slider/journey.png" alt=""/>
+      <div class="hover">
+        <div class="hover-inner">
+          <h3>OUR JOURNEY</h3>
+            <p>click here </p>
+<!-- <ul>
+            <li>Branding , </li>
+            <li>Packaging</li>
+          </ul>          <div class="likes"><span class="icon-heart"></span> 270</div>-->
+        </div>
+      </div>
+    </div>
+    <!--project-->
+    
+    <div class="project type3 type5" data-projectid="3"> <img src="assets/img/demo/slider/focus.png" alt=""/>
+      <div class="hover">
+        <div class="hover-inner">
+          <h3>OUR FOCUS</h3>
+            <p>click here </p>
+<!-- <ul>
+            <li>Branding , </li>
+            <li>Packaging</li>
+          </ul>          <div class="likes"><span class="icon-heart"></span> 270</div>-->
+        </div>
+      </div>
+    </div>
+    <!--project-->
+    
+    <div class="clearfix"></div>
+  </div>
+ </section>
+ 
+<div class="sections-holder"> 
+
+  <!--=================================
+	Services
+=================================-->
+  <section id="services" >
+  	<div class="parallax background_1"></div>
+    <div class="container">
+      <h1><span>services</span></h1>
+      <div class="row">
+        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1">
+          <p> Some Of The Services We Offer</p>
+        </div>
+      </div>
+      <div class="services-wrapper">
+        <div class="service left"> <span class="icon-user"></span>
+          <h3>Enterprise Risk Management Consulting And Advisory Services </h3>
+         <!-- <ul>
+            <li>Ideation & Conceptualization</li>
+            <li>Creative & Art Direction</li>
+            <li>Creative Strategy</li>
+          </ul>-->
+        </div>
+        <!--service-->
+        
+        
+        <div class="service right"> <span class="icon-star"></span>
+          <h3>Investment Analysis and Services</h3>
+         <!-- <ul>
+            <li>Ideation & Conceptualization</li>
+            <li>Creative & Art Direction</li>
+            <li>Creative Strategy</li>
+          </ul>-->
+        </div>
+        <!--service-->
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </section>
+  <!--=================================
+Team
+=================================-->
+  <section id="team">
+    <div class="container">
+      <h1><span>RECENT EVENTS</span></h1>
+      <div class="row">
+        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1">
+          <p>This page will lead to a blog or training page or if there are any events the company wants on the site.
+          it can also serve as a place to talk about the team that make up the organisation </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <ul class="members">
+        <li class="active">
+          <div class="hover"></div>
+          <img src="assets/img/demo/team/innovative.png"alt="" /> </li>
+        <!--member-->
+        
+        <li>
+          <div class="hover"></div>
+          <img src="assets/img/demo/team/innovative.png"alt="" /> </li>
+        <!--member-->
+        
+        <li>
+          <div class="hover"></div>
+          <img src="assets/img/demo/team/innovative.png"alt="" /> </li>
+        <!--member-->
+        
+        <li>
+          <div class="hover"></div>
+          <img src="assets/img/demo/team/innovative.png"alt="" /> </li>
+        <!--member-->
+        
+        <li>
+          <div class="hover"></div>
+          <img src="assets/img/demo/team/innovative.png"alt="" /> </li>
+        <!--member-->
+        
+        <li>
+          <div class="hover"></div>
+          <img src="assets/img/demo/team/innovative.png"alt="" /> </li>
+        <!--member-->
+        
+        <li class="triangle"><i class="icon-caret-down"></i></li>
+      </ul>
+    </div>
+    
+    <div class="member-detail">
+       <div class="parallax2 background_2"></div>
+      <div class="container">
+        <div class="member">
+          <div id="team-slider" class="flexslider">
+            <ul class="slides">
+              <li>
+                <h2> The future of bank risk management</h2>
+                <p> Risk management in banking has been transformed over the past decade, largely in response to regulations that emerged from the global financial crisis and the fines levied in its wake. But important trends are afoot that suggest risk management will experience even more sweeping change in the next decade.</p>
+
+<p>The change expected in the risk function’s operating model illustrates the magnitude of what lies ahead. Today, about 50 percent of the function’s staff are dedicated to risk-related operational processes such as credit administration, while 15 percent work in analytics. McKinsey research suggests that by 2025, these numbers will be closer to 25 and 40 percent, respectively.</p>
+                <ul class="social">
+                 <a class="btn-effect btn" href="#">Continue Now</a>
+                </ul>
+              </li>
+              <li>
+                <h2>Nonfinancial risk: A growing challenge for the bank</h2>
+                <p> nks are accustomed to taking on financial risk and generating profit from it. It is the premise of their business models. But nonfinancial risk (NFR), whether related to compliance failures, misconduct, technology, or operational challenges, has only a downside. And the downside is large.</p>
+                <ul class="social">
+                 <a class="btn-effect btn" href="#">Continue Now</a>
+
+                </ul>
+              </li>
+              <li>
+                <h2>The evolving role of credit portfolio management</h2>
+                <p>credit portfolio management (CPM) is a key function for banks (and other financial institutions, including insurers and institutional investors) with large, multifaceted portfolios of credit, often including illiquid loans. Historically, its role has been to understand the institution’s aggregate credit risk, improve returns on those risks—sometimes by trading loans in the secondary market, and hedging—and identifying and managing concentrations of risk. In contrast to traditional origination and credit risk-management functions that look only at individual deals or borrowers, CPM looks across the entire credit book.</p>
+                <ul class="social">
+                 <a class="btn-effect btn" href="#">Continue Now</a>
+
+                </ul>
+              </li>
+              <li>
+                <h2>The ghost in the machine’: Managing technology risk</h2>
+                <p>India is not India.  With a population of 1.3 billion spread across 29 states and 100+ major languages, India has to be considered more as a continent, than as a country. Despite the rich culture and diversity of the country, from an economic perspective, India has the important boxes ticked in order to live up to the expectation of being the global growth engine of the next decades. India is blessed with a large, young and skilled population, 65% being under the age of 35 years, as well as enormous and robust domestic demand. Combined with the massive workforce, also the lacking infrastructure in certain parts, which needs to be ramped up quickly, can serve as a further growth driver instead of being a handicap. Married with the right long-term Government initiatives the baseline for India’s sustainable and unrivaled growth story is set.</p>
+                <ul class="social">
+                 <a class="btn-effect btn" href="#">Continue Now</a>
+                </ul>
+              </li>
+              <li>
+                <h2>The ghost in the machine’: Managing technology risk</h2>
+                <p>While banks have greatly benefited from the software and systems that power their work, they have also become more susceptible to the concomitant risks. Many banks now find that these technologies are involved in more than half of their critical operational risks, which typically include the disruption of critical processes outsourced to vendors, breaches of sensitive customer or employee data, and coordinated denial-of-service attacks. Cybersecurity alone can account for 10 percent of total information-technology spending, which is now growing at three times the rate of the budget of the technology being secured.</p>
+                <ul class="social">
+                 <a class="btn-effect btn" href="#">Continue Now</a>
+                </ul>
+              </li>
+              <li>
+                <h2>My Story</h2>
+                <p>Chris Doe’s a Creative Lead at Thor located in beautiful NCY. He's also a sports fan. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occa ecat cupidatat non proident. sunt in culpa qui officia deserunt mollit anim id est laborum.Consectetur adipisicing elit. Excepteur sint occa ecat cupidatat non proident, sunt in culpa qui officia.</p>
+                <p>Have an exciting project you'd like to collaborate on? Get in touch us! Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <ul class="social">
+                 <a class="btn-effect btn" href="#">Continue Now</a>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--=================================
+Clients
+=================================-->
+  
+  <section id="clients">
+    <h1><span>clients</span></h1>
+    <div class="container">
+      <ul class="client-list">
+        <li class="active"><img src="assets/img/demo/clients/c5.png" alt="" ></li>
+        <li><img src="assets/img/demo/clients/c5.png" alt="" ></li>
+        <li><img src="assets/img/demo/clients/c6.png" alt="" ></li>
+        <li><img src="assets/img/demo/clients/C6.png" alt="" ></li>
+      </ul>
+      <div class="testimonials">
+        <div id="testimonial-prev" class="prev-arrow"></div>
+        <div id="testimonial-next" class="next-arrow"></div>
+        <div id="testi-flex" class="flexslider">
+          <ul class="slides">
+            <li>
+              <div class="testimonial">
+                <div class="row">
+                  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+                    <p>Thank you MCBRMCIR for your amazing services</p>
+                    <a href="#">IRMAdmin</a> </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial">
+                <div class="row">
+                  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+                    <p>MCBRMCIR is The best company for risk management and planning in nigeria </p>
+                    <a href="#">IRMAdmin </a> </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial">
+                <div class="row">
+                  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+                    <p>Since i started working with MCBRMCIR , i have been very comfortable with my decisions and been able to avoid risks , THANK YOU MCBRMCIR </p>
+                    <a href="#">HERRITAGEbank</a> </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial">
+                <div class="row">
+                  <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+                    <p>MCBRMCIR is the best company in nigeria  for Risk management solutions ,STANDARD!!</p>
+                    <a href="#">HERRITAGEbank</a> </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--=================================
+Footer
+=================================-->
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <ul class="footerNav ">
+          <li><a>HOME</a></li>
+          <li><a>ABOUT USS</a></li>
+          <li><a>SERVICES</li>
+          <li><a>CONTACT US<a> </lI>
+         </ul>
+        </div>
+        <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">
+          <div class="contact-info"> 
+          <h4 class="footerhead">RECENT ACTIVITIES</h4>
+         <p>place holder for recent activities of the company</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+          <div class="contact-info"> <span class="icon-map-marker"></span> <a href="#">26 abdulrahman Okene Close <br>off ligali Ayorinde str,
+            </a> </div>
+          <p class="contact-info"> <span class="icon-envelope"></span> <a href="mailto:info@mcbrmcir.com">info@mcbrmcir.com</a> </p>
+          <a href="index.html" class="contact-info"><img src="assets/img/basic/logo-black-and-white.png"></a>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12 col-lg-offset-1 footer-social">
+        <p>Keep In Touch </p>
+          <ul class="social">
+            <li class="facebook"><a href="#">Facebook</a></li>
+            <li class="twitter"><a href="#">Twitter</a></li>
+            <li class="google"><a href="#">Google</a></li>
+            <li class="dribbble"><a href="#">dribbble</a></li>
+            <li class="linkden"><a href="#">linkden</a></li>
+            <li class="vimeo"><a href="#">vimeo</a></li>
+            <li class="behance"><a href="#">behance</a></li>
+          </ul>
+          <p class="contact-info"><a href="tel:123456789">(+1) 123-4568-891</a> </p>
+          <span>© 2016 MCBRMCIR. All rights reserved</span> </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<!--=================================
+Script Source
+=================================--> 
+<script src="assets/js/jquery-1.9.js"></script> 
+
+<script src="assets/js/royal_preloader.min.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/jquery.easing-1.3.pack.js"></script> 
+<script src="assets/js/jquery.flexslider-min.js"></script>  
+<script src="assets/js/isotope.js"></script> 
+ 
+<script src="assets/js/jquery.parallax-1.1.3.js"></script> 
+ <script src="assets/js/jquery.vegas.min.js"></script>
+ 
+<script src="assets/js/jquery.inview.js"></script>
+<script src="assets/js/main.js"></script> 
+<script src="assets/js/rmodal.js"></script> 
+ 
+<script>
+var images = {
+		'slider': 'assets/img/demo/slider/banner1.jpg',
+		'slider2': 'assets/img/demo/slider/banner2.jpg',
+		'slider3': 'assets/img/demo/slider/banner3.jpg',
+		'slider4': 'assets/img/demo/slider/banner4.jpg',
+		'portfolio1':  'assets/img/demo/portfolio/portfolio1.png',
+		'portfolio2':  'assets/img/demo/portfolio/portfolio2.png',
+		'portfolio3':  'assets/img/demo/portfolio/portfolio3.png',
+		'portfolio4':  'assets/img/demo/portfolio/portfolio4.png',
+		'portfolio5':  'assets/img/demo/portfolio/portfolio5.png',
+		'portfolio6':  'assets/img/demo/portfolio/portfolio6.png',
+		'portfolio7':  'assets/img/demo/portfolio/portfolio7.png',
+		'portfolio8':  'assets/img/demo/portfolio/portfolio8.png',
+	};
+
+	Royal_Preloader.config({
+		  mode:           'number', // 'number', "text" or "logo"
+		  text:           'MelonHTML5 - Royal Preloader...',
+		  images:         images,
+		  timeout:        10,
+		  showInfo:       false,
+		  showPercentage: false,
+		  opacity:        1,
+		  background:     ['#000000'], // ['#000000', '#FF0000', '#0097AA', '#F29500', '#C23916', '#94C849', '#6FA014', '#91009B'],
+	});
+	
+	
+	
+
+	
+	$.vegas('slideshow', {
+		backgrounds:
+		[
+			{ src:'assets/img/demo/slider/banner1.png', fade:2000 },
+			{ src:'assets/img/demo/slider/banner2.jpg', fade:2000 },
+			{ src:'assets/img/demo/slider/banner3.png', fade:2000 },
+			{ src:'assets/img/demo/slider/banner4.png', fade:2000 },
+			{ src:'assets/img/demo/slider/banner5.png', fade:2000 },
+			{ src:'assets/img/demo/slider/banner6.png', fade:2000 }
+		]
+    })('overlay', {
+    	src:'assets/img/overlays/04.png'
+    });
+	
+	$('#nextslide').click(function(){
+	$.vegas('next');
+	});
+	$('#prevslide').click(function(){
+	$.vegas('previous');
+	});
+</script>
+
+
+
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src='//www.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+    <script type="text/javascript">
+        window.onload = function() {
+            var modal = new RModal(document.getElementById('modal'), {
+                //content: 'Abracadabra'
+                beforeOpen: function(next) {
+                    console.log('beforeOpen');
+                    next();
+                }
+                , afterOpen: function() {
+                    console.log('opened');
+                }
+
+                , beforeClose: function(next) {
+                    console.log('beforeClose');
+                    next();
+                }
+                , afterClose: function() {
+                    console.log('closed');
+                }
+                // , bodyClass: 'modal-open'
+                // , dialogClass: 'modal-dialog modal-dialog-lg'
+                // , dialogOpenClass: 'animated fadeIn'
+                // , dialogCloseClass: 'animated fadeOut'
+
+                // , focus: true
+                // , focusElements: ['input.form-control', 'textarea', 'button.btn-primary']
+
+                // , escapeClose: true
+            });
+
+            document.addEventListener('keydown', function(ev) {
+                modal.keydown(ev);
+            }, false);
+
+            document.getElementById('showModal').addEventListener("click", function(ev) {
+                ev.preventDefault();
+                modal.open();
+            }, false);
+
+            window.modal = modal;
+        }
+    </script>
+
+
+<script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+ <script src="assets/js/jquery.modal.js"></script>
+ 
+          
+</html>
+
